@@ -2,7 +2,9 @@
 
 int main(void)
 {
-    printf("Hello World!\n");
-
+    int x;
+    printf("Input the number!\n");
+    scanf("%d",&x);
+    printf("Hello World!%d!\n",x);
     return 0;
 }
