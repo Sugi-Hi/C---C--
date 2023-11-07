@@ -1,13 +1,11 @@
 #include<stdio.h>
+#include<string.h>
 
 void main(){
 
-  int x,y;
-  printf("Please input your additional number!\n");
-  scanf("%d",&x);
-  scanf("%d",&y);
-
-  int add=x+y;
-  printf("和：%d+%d=%d\n",x,y,add);
+  char str[10];
+  printf("10文字以内で文章・文字を入れて下さい!\n");
+  scanf("%s",&str);
+  printf("入力文：%s\n",str);
 
 }
