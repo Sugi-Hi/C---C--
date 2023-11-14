@@ -9,3 +9,6 @@ void main(){
   printf("入力文：%s\n",str);
 
 }
+
+// 初期ターミナルUbuntuインストールコマンド
+// sudo apt install build-essential
