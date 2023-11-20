@@ -18,7 +18,7 @@ int main(){
     yy = y-YS/2;
     for(x=0;x<XS;x++){
       xx = x - XS/2;
-      if(xx*xx+yy*yy<R*R){
+      if(xx*xx+yy*yy<=R*R){
         fprintf(fp,"■ ");
       }else{
         fprintf(fp,"□ ");
