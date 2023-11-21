@@ -3,7 +3,7 @@
 void main(){
 
   int i;
-  printf("Please input your favorite number!\n");
+  printf("Please input the number as large as possible!\n");
   int input;
   scanf("%d",&input);
 
