@@ -8,7 +8,7 @@ int main(){
   FILE *fp;
   fp = fopen("wave.dat","w");
   if(fp==NULL){
-    printf("We can't open result.dat");
+    printf("We can't open wave.dat");
     exit(1);
   }
   for(t=0.0;t<1.0;t+=0.01){
