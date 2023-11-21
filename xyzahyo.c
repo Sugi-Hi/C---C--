@@ -9,9 +9,9 @@ int main(){
   int x,y;
   int xx,yy;
   FILE *fp;
-  fp = fopen("result.dat","w");
+  fp = fopen("xy.dat","w");
   if(fp==NULL){
-    printf("We can't open result.dat");
+    printf("We can't open xy.dat");
     exit(1);
   }
   for(y=0;y<YS;y++){
