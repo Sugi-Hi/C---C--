@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(){
+void main(){
   int year, month;
   int yc, mc;
   int week;
@@ -44,6 +44,6 @@ int main(){
     }
     printf("\n");
   }
-  return 0;
+  // return 0;
 
 }
