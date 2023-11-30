@@ -15,6 +15,6 @@ void main(){
   float ans_ave[1];
   int data[5] = {1,2,3,4,5};
   sum_ave(data,5,ans_sum,ans_ave);
-  printf("sum=%d ave=%f \n",ans_sum[0],ans_ave[0]);
+  printf("合計：%d   平均：%f \n",ans_sum[0],ans_ave[0]);
 
 }
