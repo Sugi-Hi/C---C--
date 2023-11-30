@@ -1,6 +1,7 @@
 #include<stdio.h>
 
-void sum_ave(int DATA[],int size, int sum[], float ave[]){
+void sum_ave(int DATA[],int size, int sum[], float ave[])
+{
   int i;
   sum[0]=0;
   for(i=0;i<size;i++){
@@ -9,7 +10,8 @@ void sum_ave(int DATA[],int size, int sum[], float ave[]){
   }
 }
 
-void main(){
+void main()
+{
 
   int ans_sum[1];
   float ans_ave[1];
