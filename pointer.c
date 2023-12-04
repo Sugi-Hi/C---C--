@@ -4,7 +4,7 @@ void main(){
   int *x;
   int y;
   x=&y;
-  y=2;
+  *x=2;
   printf("x Value=%d\n",*x);
   printf("x Adress=%p\n",x);
 
